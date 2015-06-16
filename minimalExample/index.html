@@ -1,0 +1,54 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Presentation.js minimal example</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+<!-- begin a slide just by creating a section tag -->
+<section>
+	<!-- Every tag you put inside a slide (section tag), you can add an attribute o, the value of which is the order of appearance in you presentation, for example -->
+	<h1 o = "1"> New trends in particle physics </h1>
+	<h2 o = "2"> University of Stuttgart <br> 09/01/2014 </h2>
+	<h4 o="3"> John Smith</h4>
+	<img src="images/img1.gif" o="4" style="width:50%;">
+	<!-- every html element can have an o attribute! -->
+</section>
+
+
+<!-- and just add more slides! -->
+<section>
+	<h1>Contents</h1>
+	<ul>
+		<li o="2">Let's talk about physics!</li>
+		<li o="3">Let's go into detail!</li>
+		<li o="4">Some more stuff over here!</li>
+		<li o="5">And some more stuff over there...</li>
+		<li o="6">Let's thank also the author of.... <i o="7">presentation.js</i></li>
+	</ul>
+	<h1 o="8"> Of course that is html! You can put gifs, videos, audio, links... all kinds of stuff!</h1>
+	<img src="images/presentation.gif" o="9" style = "width:50%;">
+</section>
+
+
+
+<section>
+	<h1>And that is all for the minimal example!</h1>
+	<img src="images/dog.gif" o="3" style="width:50%;">
+	<h1 o="2">Now you can put all kinds of css and javascript fancy stuff to it!</h1>
+	<h1 style="font-size:3em" o="4">Bye!!</h1>
+</section>
+
+
+
+
+
+
+
+
+<!--Here is the presentation.js app-->
+<script type="text/javascript" src="js/presentation.js"></script>
+</body>
+</html>
