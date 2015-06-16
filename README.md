@@ -15,13 +15,16 @@ presentations on the full screen feature of some browsers.
 The way to use *presentations.js* is very easy. 
 Every slide is given by the section tag (you can easily change this fact),  
 
+```
 <secion> 
 // Your slide content here 
 </section> 
+```
 
 and every html tag can be added an atribute `o`, which stands for order, this controls 
 when a html element should pop out into existence in your slide. For instance 
 
+```
 <section> 
 
 <p o="1"> Hello </p>
@@ -29,6 +32,7 @@ when a html element should pop out into existence in your slide. For instance
 <p o="2"> World </p>
 
 </section>
+```
 
 
 So when you get to this slide, the first thing you will see is Hello, and then after pressing Right Arrow 
